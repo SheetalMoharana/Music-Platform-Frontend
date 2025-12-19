@@ -12,7 +12,7 @@ const Sidebar_temp = () => {
         <img src={assets.plus_icon} className='w-4 h-4 opacity-70 hover:opacity-100 cursor-pointer'
         alt=''/>
       </div>
-      <div className='flex-1 overflow-y-auto px-2 space-y-4 '>
+      <div className='flex-1 overflow-y-auto px-2 space-y-4 scrollbar-thin scrollbar-thumb-transparent group-hover:scrollbar-thumb-[#5a5a5a]'>
 
         <div className='bg-[#1f1f1f] rounded-lg p-4'>
           <p className='font-semibold mb-1'>Create your first playlist</p>

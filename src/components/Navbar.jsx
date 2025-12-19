@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='w-full h-16 bg-black flex items-center px-6'>
         <div className='flex item-center gap-4'>
-            <img className='h-10 w-10' alt=''/>
+            <img className='h-10 w-15 invert' src={assets.music_logo} alt=''/>
             <div className='bg-[#1f1f1f] p-2 rounded-full hover:bg-[#383737] cursor-pointer'>
                 <img className='w-9 h-9 ' src={assets.home_icon} alt=''/>
             </div>
