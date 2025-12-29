@@ -43,6 +43,12 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import aesthetic1 from './aesthetic1.jpg'
+import aesthetic2 from './aesthetic2.jpg'
+import aesthetic3 from './aesthetic3.jpg'
+import aesthetic4 from './aesthetic4.jpg'
+import aesthetic5 from './aesthetic5.jpg'
+import aesthetic6 from './aesthetic6.jpg'
 
 export const assets = {
     bell_icon,
@@ -184,7 +190,147 @@ export const songsData = [
         duration:"2:35"
     }
 ]
-
+export const aestheticData = [
+    {
+        id:0,
+        name: "Aesthetic One",
+        image: aesthetic1,
+       
+        desc:"Put a smile on your face with these happy tunes",
+        songs: [
+      {
+        id: 0,
+        name: "Song One",
+        image: img1,
+        file: song1,
+        duration: "3:00"
+      },
+      {
+        id: 1,
+        name: "Song Two",
+        image: img2,
+        file: song2,
+        duration: "2:20"
+      }
+    ]
+    },
+    {
+        id:1,
+        name: "Aesthetic Two",
+        image: aesthetic2,
+        
+        desc:"Put a smile on your face with these happy tunes",
+        songs: [
+      {
+        id: 2,
+        name: "Song One",
+        image: img1,
+        file: song1,
+        duration: "3:00"
+      },
+      {
+        id: 3,
+        name: "Song Two",
+        image: img2,
+        file: song2,
+        duration: "2:20"
+      }
+    ]
+    },
+    {
+        id:2,
+        name: "Aesthetic Three",
+        image: aesthetic3    ,
+        
+        desc:"Put a smile on your face with these happy tunes",
+        songs: [
+      {
+        id: 3,
+        name: "Song One",
+        image: img1,
+        file: song1,
+        duration: "3:00"
+      },
+      {
+        id: 4,
+        name: "Song Two",
+        image: img2,
+        file: song2,
+        duration: "2:20"
+      }
+    ]
+    },
+    {
+        id:3,
+        name: "Aesthetic Four",
+        image: aesthetic4,
+        
+        desc:"Put a smile on your face with these happy tunes",
+        songs: [
+      {
+        id: 4,
+        name: "Song One",
+        image: img1,
+        file: song1,
+        duration: "3:00"
+      },
+      {
+        id: 5,
+        name: "Song Two",
+        image: img2,
+        file: song2,
+        duration: "2:20"
+      }
+    ]
+        
+    },
+    {
+        id:4,
+        name: "Aesthetic Five",
+        image: aesthetic5,
+        
+        desc:"Put a smile on your face with these happy tunes",
+        songs: [
+      {
+        id: 5,
+        name: "Song One",
+        image: img1,
+        file: song1,
+        duration: "3:00"
+      },
+      {
+        id: 6,
+        name: "Song Two",
+        image: img2,
+        file: song2,
+        duration: "2:20"
+      }
+    ]
+    },
+    {
+        id:5,
+        name: "Aesthetic Six",
+        image: aesthetic6 ,
+       
+        desc:"Put a smile on your face with these happy tunes",
+        songs: [
+      {
+        id: 0,
+        name: "Song One",
+        image: img1,
+        file: song1,
+        duration: "3:00"
+      },
+      {
+        id: 1,
+        name: "Song Two",
+        image: img2,
+        file: song2,
+        duration: "2:20"
+      }
+    ]
+    },
+]
 
 
 

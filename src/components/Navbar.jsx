@@ -1,9 +1,10 @@
 import React from 'react';
 import {assets} from '../assets/assets';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className='w-full h-16 bg-black flex items-center px-6'>
+    <nav className='w-full h-14 sm:h-16 bg-black flex items-center px-3 sm:px-6'>
         <div className='flex item-center gap-4'>
             <img className='h-10 w-15 invert' src={assets.music_logo} alt=''/>
             <div className='bg-[#1f1f1f] p-2 rounded-full hover:bg-[#383737] cursor-pointer'>
@@ -44,12 +45,17 @@ const Navbar = () => {
           <span>Install App</span>
         </div>
 
-        <span className='text-gray-400 hover:text-white cursor-pointer transition'>
-          Sign up
-        </span>
-        <button className='bg-white text-black px-6 py-2 rounded-full font-semibold hover:scale-105 transition'>
-          Log in
-        </button>
+        <Link to="/register"
+  className="bg-white text-black text-sm font-semibold px-4 py-1.5 rounded-full hover:scale-105 transition"
+>
+  Register
+</Link>
+
+<Link to="/sign-in"
+  className="bg-white text-black text-sm font-semibold px-4 py-1.5 rounded-full hover:scale-105 transition"
+>
+  Sign In
+</Link>
 
         </div>
      
